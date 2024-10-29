@@ -1,0 +1,152 @@
+# Copyright (C) 2024 AltaPay
+# This file is distributed under the same license as the AltaPay for WooCommerce - Payments less complicated plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: AltaPay for WooCommerce - Payments less complicated 3.6.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/altapay-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-18T10:05:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: altapay\n"
+
+
+#: altapay.php:254
+msgid "AltaPay Payment Actions"
+msgstr "Acțiuni de Plată AltaPay"
+
+#: altapay.php:297
+#: classes/core/AltapayOrderStatus.php:52
+#: classes/core/AltapaySettings.php:63
+#: classes/core/AltapaySettings.php:437
+#: helpers/traits/AltapayMaster.php:69
+#: terminals/Altapay_Test_Terminal.class.php:418
+msgid "Could not connect to AltaPay!"
+msgstr "Nu s-a putut conecta la AltaPay!"
+
+#: altapay.php:311
+#: classes/core/AltapayOrderStatus.php:62
+msgid "Could not fetch Payments from AltaPay!"
+msgstr "Nu s-au putut prelua plățile de la AltaPay!"
+
+#: altapay.php:360
+#: altapay.php:971
+msgid "Payment Released."
+msgstr "Plata Eliberată."
+
+#: altapay.php:385
+msgid "Order got no transaction"
+msgstr "Comanda nu are nicio tranzacție"
+
+#: altapay.php:708
+msgid "Payment Captured."
+msgstr "Plata Capturată."
+
+#: altapay.php:832
+msgid "Payment refund is in progress."
+msgstr "Rambursarea plății este în curs."
+
+#: altapay.php:915
+msgid "Payment Refunded."
+msgstr "Plata Rambursată."
+
+#: views/tables/capture.blade.php:16
+#: views/tables/refund.blade.php:16
+msgid "Product name"
+msgstr "Numele produsului"
+
+#: views/tables/capture.blade.php:17
+#: views/tables/refund.blade.php:17
+msgid "Price with tax"
+msgstr "Preț cu taxă"
+
+#: views/tables/capture.blade.php:18
+#: views/tables/refund.blade.php:18
+msgid "Price without tax"
+msgstr "Preț fără taxă"
+
+#: views/tables/capture.blade.php:19
+#: views/tables/refund.blade.php:19
+msgid "Ordered"
+msgstr "Comandat"
+
+#: views/tables/capture.blade.php:20
+#: views/tables/refund.blade.php:20
+msgid "Discount Percent"
+msgstr "Procent de Reducere"
+
+#: views/tables/capture.blade.php:21
+#: views/tables/refund.blade.php:21
+msgid "Quantity"
+msgstr "Cantitate"
+
+#: views/tables/capture.blade.php:22
+#: views/tables/refund.blade.php:22
+msgid "Total amount"
+msgstr "Suma totală"
+
+#: views/tables/index.blade.php:59
+#: views/tables/index.blade.php:95
+msgid "Send order lines"
+msgstr "Trimite liniile de comandă"
+
+#: views/tables/index.blade.php:66
+#: views/tables/index.blade.php:101
+msgid "Amount"
+msgstr "Sumă"
+
+#: views/tables/index.blade.php:68
+#: views/tables/index.blade.php:139
+#: views/tables/index.blade.php:143
+msgid "Capture"
+msgstr "Captură"
+
+#: views/tables/index.blade.php:103
+#: views/tables/index.blade.php:144
+#: views/tables/index.blade.php:148
+msgid "Refund"
+msgstr "Rambursare"
+
+#: views/tables/index.blade.php:113
+msgid "Transaction ID"
+msgstr "ID-ul Tranzacției"
+
+#: views/tables/index.blade.php:118
+msgid "Reserved"
+msgstr "Rezervat"
+
+#: views/tables/index.blade.php:123
+#: views/tables/index.blade.php:124
+msgid "Chargeable"
+msgstr "Taxabil"
+
+#: views/tables/index.blade.php:128
+#: views/tables/index.blade.php:130
+msgid "Captured"
+msgstr "Capturat"
+
+#: views/tables/index.blade.php:133
+#: views/tables/index.blade.php:136
+msgid "Refunded"
+msgstr "Rambursat"
+
+#: views/tables/index.blade.php:138
+#: views/tables/index.blade.php:142
+msgid "Capture Payment"
+msgstr "Capturare Plată"
+
+#: views/tables/index.blade.php:143
+#: views/tables/index.blade.php:147
+msgid "Refund Payment"
+msgstr "Rambursare Plată"
+
+#: views/tables/index.blade.php:149
+#: views/tables/index.blade.php:153
+msgid "Release Payment"
+msgstr "Eliberare Plată"
+

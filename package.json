@@ -1,0 +1,20 @@
+{
+	"name": "woocommerce-for-altapay",
+	"title": "WooCommerce for AltaPay",
+	"version": "1.0.0",
+	"keywords": [],
+	"engines": {
+		"node": ">=6.9.4",
+		"npm": ">=1.1.0"
+	},
+	"devDependencies": {
+		"@woocommerce/dependency-extraction-webpack-plugin": "^2.2.0",
+		"@wordpress/scripts": "^27.1.0",
+		"cross-env": "7.0.3"
+	},
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"watch": "wp-scripts build --watch"
+	}
+}

@@ -1,0 +1,152 @@
+# Copyright (C) 2024 AltaPay
+# This file is distributed under the same license as the AltaPay for WooCommerce - Payments less complicated plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: AltaPay for WooCommerce - Payments less complicated 3.6.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/altapay-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl_NL_formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-18T10:05:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: altapay\n"
+
+
+#: altapay.php:254
+msgid "AltaPay Payment Actions"
+msgstr "AltaPay Betalingsacties"
+
+#: altapay.php:297
+#: classes/core/AltapayOrderStatus.php:52
+#: classes/core/AltapaySettings.php:63
+#: classes/core/AltapaySettings.php:437
+#: helpers/traits/AltapayMaster.php:69
+#: terminals/Altapay_Test_Terminal.class.php:418
+msgid "Could not connect to AltaPay!"
+msgstr "Kon geen verbinding maken met AltaPay!"
+
+#: altapay.php:311
+#: classes/core/AltapayOrderStatus.php:62
+msgid "Could not fetch Payments from AltaPay!"
+msgstr "Kon betalingen niet ophalen van AltaPay!"
+
+#: altapay.php:360
+#: altapay.php:971
+msgid "Payment Released."
+msgstr "Betaling vrijgegeven."
+
+#: altapay.php:385
+msgid "Order got no transaction"
+msgstr "Bestelling heeft geen transactie"
+
+#: altapay.php:708
+msgid "Payment Captured."
+msgstr "Betaling vastgelegd."
+
+#: altapay.php:832
+msgid "Payment refund is in progress."
+msgstr "Betalingsrestitutie is in behandeling."
+
+#: altapay.php:915
+msgid "Payment Refunded."
+msgstr "Betaling terugbetaald."
+
+#: views/tables/capture.blade.php:16
+#: views/tables/refund.blade.php:16
+msgid "Product name"
+msgstr "Productnaam"
+
+#: views/tables/capture.blade.php:17
+#: views/tables/refund.blade.php:17
+msgid "Price with tax"
+msgstr "Prijs met belasting"
+
+#: views/tables/capture.blade.php:18
+#: views/tables/refund.blade.php:18
+msgid "Price without tax"
+msgstr "Prijs zonder belasting"
+
+#: views/tables/capture.blade.php:19
+#: views/tables/refund.blade.php:19
+msgid "Ordered"
+msgstr "Besteld"
+
+#: views/tables/capture.blade.php:20
+#: views/tables/refund.blade.php:20
+msgid "Discount Percent"
+msgstr "Kortingspercentage"
+
+#: views/tables/capture.blade.php:21
+#: views/tables/refund.blade.php:21
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#: views/tables/capture.blade.php:22
+#: views/tables/refund.blade.php:22
+msgid "Total amount"
+msgstr "Totaalbedrag"
+
+#: views/tables/index.blade.php:59
+#: views/tables/index.blade.php:95
+msgid "Send order lines"
+msgstr "Bestellijnen verzenden"
+
+#: views/tables/index.blade.php:66
+#: views/tables/index.blade.php:101
+msgid "Amount"
+msgstr "Bedrag"
+
+#: views/tables/index.blade.php:68
+#: views/tables/index.blade.php:139
+#: views/tables/index.blade.php:143
+msgid "Capture"
+msgstr "Vastleggen"
+
+#: views/tables/index.blade.php:103
+#: views/tables/index.blade.php:144
+#: views/tables/index.blade.php:148
+msgid "Refund"
+msgstr "Terugbetalen"
+
+#: views/tables/index.blade.php:113
+msgid "Transaction ID"
+msgstr "Transactie-ID"
+
+#: views/tables/index.blade.php:118
+msgid "Reserved"
+msgstr "Gereserveerd"
+
+#: views/tables/index.blade.php:123
+#: views/tables/index.blade.php:124
+msgid "Chargeable"
+msgstr "Belastbaar"
+
+#: views/tables/index.blade.php:128
+#: views/tables/index.blade.php:130
+msgid "Captured"
+msgstr "Vastgelegd"
+
+#: views/tables/index.blade.php:133
+#: views/tables/index.blade.php:136
+msgid "Refunded"
+msgstr "Terugbetaald"
+
+#: views/tables/index.blade.php:138
+#: views/tables/index.blade.php:142
+msgid "Capture Payment"
+msgstr "Betaling vastleggen"
+
+#: views/tables/index.blade.php:143
+#: views/tables/index.blade.php:147
+msgid "Refund Payment"
+msgstr "Betaling terugbetalen"
+
+#: views/tables/index.blade.php:149
+#: views/tables/index.blade.php:153
+msgid "Release Payment"
+msgstr "Betaling vrijgeven"
+

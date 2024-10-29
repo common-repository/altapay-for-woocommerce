@@ -1,0 +1,1 @@
+The compiled files will be stored in this folder created automatically by BladeOne Blade Template Engine.
